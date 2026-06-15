@@ -2,6 +2,13 @@
 
 body
 {
-    background-image: url(imagens/fundo-madeira.jpg);
+    background-image: url(imagens/fundo-de-textura-de-madeira.jpg);
     background-color: black;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#celular
+{
+    width: 600px;
+    height: 800px;
 }
