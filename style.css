@@ -9,6 +9,8 @@ body
 }
 #celular
 {
-    width: 600px;
-    height: 800px;
+    display: block;
+    width: 900px; /*mesmos valores*/
+    height: 900px;
+    margin: auto    ;
 }
