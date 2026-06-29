@@ -41,12 +41,11 @@ body
 }
 iframe
 {
-    border-radius: 35px;
+    border-radius: 3px;
     position: absolute;
     height: 635px;
     width: 335px;
-    border: 3px solid rgb(255, 0, 0);
-    bottom: 55px;
-    left: 785px;
+    bottom: 60px;
+    left: 788px;
     
 }
