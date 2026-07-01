@@ -8,10 +8,9 @@
 }
 html, body
 {
-    background-image: url(../imagens/fundo-de-textura-de-madeira.jpg);
-    background-color: black;
-    background-repeat: no-repeat;
+    background: black url(../imagens/enhanced_fundo-de-textura-de-madeira.jpg) no-repeat top center;
     background-size: cover;
+    background-attachment: fixed;
     margin-right: 0;
     height: 100vh;
     width: 100vw;
@@ -27,7 +26,8 @@ html, body
     transform: translate(-50%, -50%);
     position:absolute;
     background: url(../imagens/celular2.png) no-repeat; 
-    background-size: contain;
+    background-size: cover;
+    background-attachment: fixed;
 }
 .botão
 {
@@ -53,12 +53,13 @@ html, body
 }
 iframe
 {
+    background: black url('home.html');
     border-radius: 3px;
     position: absolute;
     top: 49.8%;
-    left: 49.98%;
-    height: 645px;
-    width: 438px;
+    left: 49.975%;
+    height: 647px;
+    width: 365px;
     margin: auto;
     transform: translate(-50%, -50%);
 }
