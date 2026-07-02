@@ -34,7 +34,16 @@ html, body
     position: absolute;
     display: block;
     height: 100px;
-    width: 100px;   
+    width: 100px;
+    border-radius: 50%;
+    box-sizing: border-box;
+    
+}
+.botão:hover
+{
+    border: 2px solid white;
+    transform: translate(-3px, -3px);
+    transition: transform .2s, border 1s;
 }
 #botões-direita
 {
